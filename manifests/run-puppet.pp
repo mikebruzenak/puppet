@@ -11,6 +11,8 @@ file { '/etc/puppetlabs/code/environments/testfileresource.txt':
 
 file { '/etc/motd':
   source => '/examples/puppet/files/motd.txt',
+  owner  => 'vagrant',
+  mode   => '0666',
 }
 
 cron { 'run-puppet':
