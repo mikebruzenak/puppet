@@ -5,3 +5,4 @@ Other stuff added to test cron
 
 After CRLF fix
 
+test autoupdate
